@@ -6,7 +6,7 @@ export default function LatestPosts() {
   return (
     <>
       <h1 className="inline-block font-heading text-4xl tracking-tight lg:text-5xl">
-        Recently Published
+        最近发布{/*  Recently Published */}
       </h1>
       {latestPosts
         .sort((a, b) => {

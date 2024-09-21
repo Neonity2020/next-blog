@@ -29,13 +29,13 @@ export function MainNav({ className }: { className?: string }) {
       <Link href={"/"}>
         <div className="flex items-center justify-between w-32">
           <Icons.logo className="h-6 w-6" />
-          <p>Coding Jitsu</p>
+          <p>NeoMatrix xl</p>
         </div>
       </Link>
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
-            <NavigationMenuTrigger>Posts</NavigationMenuTrigger>
+            <NavigationMenuTrigger>博客文章{/* Posts */}</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
                 {POSTS.map((post) => (
@@ -53,7 +53,7 @@ export function MainNav({ className }: { className?: string }) {
           <NavigationMenuItem>
             <Link href="/about" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                About
+                关于{/* About */}
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
