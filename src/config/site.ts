@@ -10,7 +10,7 @@ type SiteConfig = {
 };
 
 export const siteConfig: SiteConfig = {
-  name: "Coding Jitsu Blog",
+  name: "NeoMatrix",
   description:
     "An Open source Technical Blog platform with Next.js 14 with shadcn/ui, prisma and markdown support.",
   url: "https://next-blog-cj.vercel.app/",
