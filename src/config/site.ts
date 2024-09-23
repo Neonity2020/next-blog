@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
   url: "https://next-blog-cj.vercel.app/",
   ogImage: "https://next-blog-cj.vercel.app/og",
   links: {
-    twitter: "https://twitter.com/codingjitsu",
-    github: "https://github.com/codingjitsu",
+    twitter: "https://twitter.com/neonity2022",
+    github: "https://github.com/neonity2020",
   },
 };
