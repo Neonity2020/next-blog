@@ -4,8 +4,8 @@ import { MainNav } from "@/components/main-nav";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Me",
-  description: "Information about me",
+  title: "About",
+  description: "Information about Neonity & NeoMatrix",
 };
 
 export default async function AboutPage() {
@@ -16,7 +16,7 @@ export default async function AboutPage() {
           <MainNav />
           <Header>
             <h1 className="title font-semibold text-2xl tracking-tighter mt-4 capitalize">
-              About Me
+              About Neonity & NeoMatrix
             </h1>
           </Header>
         </Container>
